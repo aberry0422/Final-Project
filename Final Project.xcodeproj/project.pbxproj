@@ -15,6 +15,12 @@
 		70B54340245CEBD000A95923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B5433E245CEBD000A95923 /* LaunchScreen.storyboard */; };
 		70B5434B245CEBD000A95923 /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5434A245CEBD000A95923 /* Final_ProjectTests.swift */; };
 		70B54356245CEBD000A95923 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B54355245CEBD000A95923 /* Final_ProjectUITests.swift */; };
+		70B54366245CF8AB00A95923 /* tab1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B54365245CF8AB00A95923 /* tab1VC.swift */; };
+		70B54368245CF8BD00A95923 /* tab2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B54367245CF8BD00A95923 /* tab2VC.swift */; };
+		70B5436A245CF8D200A95923 /* tab3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B54369245CF8D200A95923 /* tab3VC.swift */; };
+		70B5436C245CF95B00A95923 /* tabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5436B245CF95B00A95923 /* tabBarVC.swift */; };
+		70B5436E245D0FC100A95923 /* tab4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5436D245D0FC100A95923 /* tab4VC.swift */; };
+		70B54370245E071F00A95923 /* tab6VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5436F245E071F00A95923 /* tab6VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		70B54351245CEBD000A95923 /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B54355245CEBD000A95923 /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		70B54357245CEBD000A95923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B54365245CF8AB00A95923 /* tab1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab1VC.swift; sourceTree = "<group>"; };
+		70B54367245CF8BD00A95923 /* tab2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab2VC.swift; sourceTree = "<group>"; };
+		70B54369245CF8D200A95923 /* tab3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab3VC.swift; sourceTree = "<group>"; };
+		70B5436B245CF95B00A95923 /* tabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarVC.swift; sourceTree = "<group>"; };
+		70B5436D245D0FC100A95923 /* tab4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab4VC.swift; sourceTree = "<group>"; };
+		70B5436F245E071F00A95923 /* tab6VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab6VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 		70B54327245CEBCA00A95923 = {
 			isa = PBXGroup;
 			children = (
+				70B5436B245CF95B00A95923 /* tabBarVC.swift */,
 				70B54332245CEBCA00A95923 /* Final Project */,
 				70B54349245CEBD000A95923 /* Final ProjectTests */,
 				70B54354245CEBD000A95923 /* Final ProjectUITests */,
@@ -103,6 +116,11 @@
 				70B54335245CEBCA00A95923 /* SceneDelegate.swift */,
 				70B54337245CEBCA00A95923 /* ViewController.swift */,
 				70B54339245CEBCA00A95923 /* Main.storyboard */,
+				70B5436F245E071F00A95923 /* tab6VC.swift */,
+				70B5436D245D0FC100A95923 /* tab4VC.swift */,
+				70B54365245CF8AB00A95923 /* tab1VC.swift */,
+				70B54367245CF8BD00A95923 /* tab2VC.swift */,
+				70B54369245CF8D200A95923 /* tab3VC.swift */,
 				70B5433C245CEBD000A95923 /* Assets.xcassets */,
 				70B5433E245CEBD000A95923 /* LaunchScreen.storyboard */,
 				70B54341245CEBD000A95923 /* Info.plist */,
@@ -259,9 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B54368245CF8BD00A95923 /* tab2VC.swift in Sources */,
+				70B5436C245CF95B00A95923 /* tabBarVC.swift in Sources */,
 				70B54338245CEBCA00A95923 /* ViewController.swift in Sources */,
+				70B54370245E071F00A95923 /* tab6VC.swift in Sources */,
+				70B5436E245D0FC100A95923 /* tab4VC.swift in Sources */,
 				70B54334245CEBCA00A95923 /* AppDelegate.swift in Sources */,
 				70B54336245CEBCA00A95923 /* SceneDelegate.swift in Sources */,
+				70B54366245CF8AB00A95923 /* tab1VC.swift in Sources */,
+				70B5436A245CF8D200A95923 /* tab3VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
